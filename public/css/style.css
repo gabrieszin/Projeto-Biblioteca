@@ -1,0 +1,83 @@
+@import url('./inter.css');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+div.card-display-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+
+.preenchimento-obrigatorio::after{
+  content: "*";
+}
+
+div.botoes{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.nav-header{
+  background: #ABDCFF;
+}
+
+.btn-icon{
+  cursor: pointer;
+}
+
+div.disciplina{
+  display: none;
+}
+
+div.turma{
+  display: none;
+}
+
+div.questao{
+  display: none;
+}
+
+input.resposta-questao{
+  margin-top: 0.25em;
+}
+
+input.nota-aluno{
+  width: 80%;
+}
+
+.display-none{
+  display: none;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+.red{
+  color: #FF0000;
+}
+
+.blue{
+  color: #0000FF;
+}
+
+.fonte-18{
+  font-size: 18px;
+}
+
+.btn-none{
+  background-color: inherit;
+  border: none;
+  color: #FFFFFF;
+}
